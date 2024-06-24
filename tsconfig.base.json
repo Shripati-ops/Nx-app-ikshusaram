@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ikshusaram/reusables": ["reusables/src/index.ts"],
+      "@ikshusaram/reusables/server": ["reusables/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
