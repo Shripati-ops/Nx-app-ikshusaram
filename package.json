@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "run-all": "npm-run-all -p"
+    "run-all": "npm-run-all -p",
+    "serve-web": "nx dev ikshusaram-web",
+    "serve-admin": "nx serve ikshusaram-admin"
   },
   "private": true,
   "dependencies": {
